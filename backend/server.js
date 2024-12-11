@@ -4,8 +4,8 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const connectDB = require('./db');
-const Userdb = require('./models');
-const port = 3001;
+const Userdb = require('./model');
+const port = process.env.PORT || 3001;
 
 // Connect to the database
 connectDB();

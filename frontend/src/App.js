@@ -1,7 +1,7 @@
 // App.js
 
 import React from "react";
-import "./App.css";
+import "./components/App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
